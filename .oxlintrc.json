@@ -5,7 +5,7 @@
   ],
   "plugins": ["oxc"],
   "rules": {
-    "no-unused-vars": "deny"
+    "no-debugger": "deny"
   }
 }
 
