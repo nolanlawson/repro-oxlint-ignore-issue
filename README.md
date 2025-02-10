@@ -1,4 +1,4 @@
-# repo oxlint ignore issue
+# repro oxlint ignore issue
 
 This repos an issue with oxlint where files are not ignored in certain cases, despite being specified in `"ignorePatterns"`.
 
