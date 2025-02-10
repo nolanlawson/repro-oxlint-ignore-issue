@@ -2,7 +2,14 @@
 
 This repos an issue with oxlint where files are not ignored in certain cases, despite being specified in `"ignorePatterns"`.
 
-`"ignorePatterns"`:
+Quick repro:
+
+```bash
+npm i
+npm run lint
+```
+
+Here is what's happening. `"ignorePatterns"`:
 
 ```json
   "ignorePatterns": [
