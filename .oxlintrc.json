@@ -1,8 +1,8 @@
 {
   "$schema": "./node_modules/oxlint/configuration_schema.json",
   "ignorePatterns": [
-    "a/bar.js",
-    "foo.js"
+    "foo.js",
+    "a/bar.js"
   ],
   "plugins": ["oxc"],
   "rules": {
